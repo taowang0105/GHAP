@@ -14,7 +14,7 @@ note: we modified the "arguments" and "scene" packages to adapt to our scenario.
 
 ## Ways to Run
 
-GHAP includes **2 ways** to make the 3D Gaussians be compact
+GHAP includes **2 ways** to make the 3D Gaussians be compacted
 <!-- #### Option 0 Run all (currently Prune + SH distillation) -->
 
 
@@ -27,6 +27,6 @@ bash run_with_construction.sh <scene_name> <source_path> [<compact_ratio>]
 Users can compact a trained 3DGS object by checkpoint
 
 ```
-bash run_from_pointcloud.sh <scene_name> <source_path> [<ckp_path>] [<sampling_ratio>]
+bash run_from_pointcloud.sh <scene_name> <source_path> [<ckp_path>] [<compact_ratio>]
 ```
 
